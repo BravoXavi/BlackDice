@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+.popup_pj{
+  position: fixed;
+  top: calc(50% - 25vh);
+  left: calc(50% - 30vw);
+  background-color: #a5a5a5;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 23vw;
+  height: 28vw;
+  padding: 2vh 2vw;
+  cursor: pointer;
+  z-index: 99999;
+  font-family: 'Inconsolata';
+}
+
+.popup_tile{
+  position: fixed;
+  top: calc(50% - 25vh);
+  left: calc(50% - 30vw);
+  background-color: #a5a5a5;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 25vw;
+  height: 15vw;
+  padding: 2vh 2vw;
+  cursor: pointer;
+  z-index: 99999;
+  font-family: 'Inconsolata';
+}
+
+.popup_char{
+  position: fixed;
+  top: calc(50% - 25vh);
+  left: calc(50% - 30vw);
+  background-color: #a5a5a5;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 25vw;
+  height: 15vw;
+  padding: 2vh 2vw;
+  cursor: pointer;
+  z-index: 99999;
+  font-family: 'Inconsolata';
+}
+
+.popup_music{
+  position: fixed;
+  top: calc(50% - 25vh);
+  left: calc(50% - 30vw);
+  background-color: #a5a5a5;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 45vw;
+  height: 30vw;
+  padding: 2vh 2vw;
+  cursor: pointer;
+  z-index: 99999;
+  font-family: 'Inconsolata';
+}
+
+.tancar2{
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+.tancartile{
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+.tancarchar{
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+.tancarmusic{
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+.play{
+  float:right;
+  border-radius: 25px;
+  border: 3px solid black;
+  margin-left: 5%;
+  background-color: #098A17;
+  font-size: 15px;
+}
+
+.stop{
+  float: right;
+  border-radius: 25px;
+  border: 3px solid black;
+  margin-left: 5%;
+  background-color: #F45555;
+}
+
+button:focus{
+  outline:0;
+}
+
+.popup_pj p{
+  font-size: 3vh;
+  margin-bottom: 0;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+
+.line{
+  width: 95%;
+  border-bottom: 2px solid black;
+  margin-bottom: 4%;
+}
+
+.popup_pj input{
+  padding-left: 1%;
+}  
+
+.popup_tile p{
+  font-size: 3vh;
+  margin-bottom: 0;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+
+.popup_tile input{
+  padding-left: 1%;
+}  
+
+.popup_char p{
+  font-size: 3vh;
+  margin-bottom: 0;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+
+.popup_char input{
+  padding-left: 1%;
+}  
+
+.popup_music p{
+  font-size: 3vh;
+  margin-bottom: 0;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+
+.popup_music input{
+  padding-left: 1%;
+}  
+
+.cajaFicha{
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+.botonFicha{
+  border-radius: 2px;
+  border: 1px solid black;
+  background-color: #80ac80;
+}

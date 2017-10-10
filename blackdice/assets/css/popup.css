@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+.popup{
+  position: fixed;
+  top: calc(50% - 19vh);
+  left: calc(50% - 20vw);
+  background-color: #a5a5a5;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 30vw;
+  height: 16vw;
+  padding: 2vh 2vw;
+  cursor: pointer;
+  z-index: 99999;
+  font-family: 'Inconsolata';
+}
+
+.playing label{
+  height: 8%;
+  font-size: 16px;
+}
+
+.musiclist{
+  height: 62%;
+  width: 26vw;
+  overflow-y: scroll;
+}
+
+.musiclist::-webkit-scrollbar {
+    width: 14px;
+    height: 18px;
+}
+.musiclist::-webkit-scrollbar-thumb {
+    height: 6px;
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    -webkit-border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+.musiclist::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+}
+.musiclist::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+.tancar{
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+.play{
+  float:right;
+  border-radius: 25px;
+  border: 3px solid black;
+  margin-left: 5%;
+  background-color: #098A17;
+  font-size: 15px;
+}
+
+.stop{
+  float: right;
+  border-radius: 25px;
+  border: 3px solid black;
+  margin-left: 5%;
+  background-color: #F45555;
+}
+
+button:focus{
+  outline:0;
+}
+
+.popup p, .popup_pj p{
+  font-size: 3vh;
+  margin-bottom: 0;
+}
+
+.line{
+  width: 95%;
+  border-bottom: 2px solid black;
+  margin-bottom: 4%;
+}
+
+i{
+  font-size: 18px;
+}

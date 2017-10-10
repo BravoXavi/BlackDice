@@ -1,0 +1,383 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+*{
+	margin: 0;
+}
+
+.charimg{
+	display:block;
+	float:left;
+}
+
+#appZone{
+	float: right;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+
+body{
+	background-color: #000000;
+}
+
+#titleImg{
+	padding-bottom: 10%;
+}
+
+#editor-container::-webkit-scrollbar{
+	width: 1%;
+	height: 1%;
+}
+
+#editor-container::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+#editor-container::-webkit-scrollbar-thumb{
+	background-color: darkgrey;
+	outline: 1px solid slategrey;
+}
+
+#editor-container::-webkit-scrollbar-corner{
+	background: black;
+}
+
+input{
+	outline:none;
+}
+
+.writeBox #Write{
+	width: 100%;
+	padding-left: 1%;
+	border: 3px solid #ccc;
+}
+
+.writeBox #Write:focus{
+	border: 3px solid #5399e7;
+}
+
+.writeBox #Clearer{
+	margin-top: 2%;
+	float: left;
+}
+
+.writeBox #Send{
+	margin-top: 2%;
+	float: right;
+}
+
+.writeBox{
+	width: 90%;
+	height: 15%;
+	margin: 4% auto 0 auto;
+}
+
+.welcome{
+	width: 50%;
+	float: right;
+	position: relative;
+	color: #c0c0c0;
+	margin-top: 0.5%;
+}
+
+.editorButton{
+	width: 20%;
+	float: right;
+	color: #c0c0c0;
+	margin-top: 0.9%;
+}
+
+
+canvas{
+}
+
+.navbar{
+	margin-bottom: 0;
+	height: 100%;
+	border-radius: 0;
+}
+
+.top{
+	position:fixed;
+	z-index: 10;
+	width: 100%;
+	height: 6vh;
+}
+
+.containerGeneral{
+	z-index: 1;
+	position: fixed;
+	margin-top: 6vh;
+	height: 94vh;
+	width: 100vw;
+}
+
+.chat-container{
+	float: right;
+	height: 100%;
+	width: 24.8%;
+}
+
+.gameStatus{
+	float: left;
+	height: 100%;
+	width: 8%;
+	background-color: black;
+	border: 3px solid black;
+}
+
+.gameBox {
+	width: 90%;
+	height: 97%;
+	border: 0;
+	padding: 5%;
+	margin: 3% auto 0 auto;
+	background-color: rgba(255,255,255,0.4);
+	color: black;
+	text-shadow: 0 0 0 transparent;
+	overflow: auto;
+    border-radius: 2px 2px 2px 2px;
+}
+
+.gameBox p{
+	text-align: center;
+	font-family: 'Inconsolata';
+	font-size: 16px;
+}
+
+.title1{	
+	font-weight: bold;
+	font-family: 'Inconsolata';
+	font-size: 18px;
+	text-align: center;
+}
+
+.timeButton{
+	display: block;
+	margin: 0 auto 0 auto;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+.gameBox label{
+	text-align: center;
+	font-weight: normal;
+}
+
+.line2{
+  width: 95%;
+  border-bottom: 4px solid black;
+  margin-bottom: 4%;
+}
+
+#editor-container{
+	margin-top: 0.4%;
+	height: 96.6%;
+	width: 67.2%;
+	overflow: scroll;
+}
+
+#footer{
+	margin-left: 270px;
+	float: right;
+}
+
+.chatBox {
+	width: 90%;
+	height: 85%;
+	border: 0;
+	padding: 5%;
+	margin: 3% auto 0 auto;
+	background-color: rgba(255,255,255,0.7);
+	color: black;
+	text-shadow: 0 0 0 transparent;
+	overflow: auto;
+	text-align: left;
+    border-radius: 1px 1px 1px 1px 
+}
+
+.chatBox p {
+	font-family: 'Inconsolata';
+	font-size: 16px;
+	margin: 2px;
+}
+
+#optionsMenu{
+	float: left;
+    width: 251px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    background: #222222;
+    overflow-y: auto;
+}
+
+#editor-container{
+	float: left;
+}
+
+
+#wrapper{
+    overflow:auto;
+}
+
+.fixedHeader{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 55px;
+	background-color: #222222;
+	position: fixed;
+}
+
+.headerContainer{
+	  padding-right: 15px;
+	  padding-left: 270px;
+	  padding-top: 5px;
+	  margin-right: auto;
+	  margin-left: auto;
+}
+
+.webTitle {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  color: #AAAAAA;
+  line-height: 20px;
+}
+
+	.webTitle:hover,
+	.webTitle:focus {
+		text-decoration: none;
+		color: #AAAAAA;
+	}
+
+	.webTitle > img {
+		display: block;
+	}
+
+.simpleButton {
+    background-color: #bc1339; /* Green */
+    border: none;
+    color: black;
+    padding: 0.8% 0.8% 0.8% 0.8%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.myButtonBlue {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #468ccf));
+	background:-moz-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+	background:-webkit-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+	background:-o-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+	background:-ms-linear-gradient(top, #63b8ee 5%, #468ccf 100%);
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf',GradientType=0);
+	background-color:#63b8ee;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+}
+.myButtonBlue:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #63b8ee));
+	background:-moz-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
+	background:-webkit-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
+	background:-o-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
+	background:-ms-linear-gradient(top, #468ccf 5%, #63b8ee 100%);
+	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#63b8ee',GradientType=0);
+	background-color:#468ccf;
+}
+.myButtonBlue:active {
+	position:relative;
+	top:1px;
+}
+
+.myButtonRed {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f));
+	background:-moz-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+	background:-webkit-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+	background:-o-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+	background:-ms-linear-gradient(top, #f24537 5%, #c62d1f 100%);
+	background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f',GradientType=0);
+	background-color:#f24537;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.myButtonRed:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537));
+	background:-moz-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+	background:-webkit-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+	background:-o-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+	background:-ms-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537',GradientType=0);
+	background-color:#c62d1f;
+}
+.myButtonRed:active {
+	position:relative;
+	top:1px;
+}
+
+#throwButtonID{
+	margin: 0 15% 0 10%;
+	font-family: 'Inconsolata';
+}
+
+#throwButtonID1, #throwButtonID2, #throwButtonID3{
+	font-family: 'Inconsolata';
+}
+
+#throwButtonID1{
+	margin-left: 12%;
+}
+
+#throwButtonID2{
+	margin-left: 28.5%;
+}
+
+#throwButtonID3{
+	margin-left: 3.5%;
+}
+
+a{
+	font-family: 'Inconsolata';
+	font-size: 17px;
+}
+
+.navbar-brand:hover{
+	outline:none;
+}
